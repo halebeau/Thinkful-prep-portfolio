@@ -64,14 +64,14 @@ header h2 {
     width: 1000px;
     clear: both;
     font-family: 'Lora', serif;
-    font-size: 62px;
+    font-size: 58px;
     line-height: 80px;
-    color: #9b9b9b;
+    color: #00b4d8;
     padding: 20px 0 20px 25px;
 }
 
 header h2 span {
-    color: #2b2b2b;
+    color: #03045e;
 }
 
 /****** ABOUT ******/
@@ -88,7 +88,7 @@ header h2 span {
 
 #about p {
     font-size: 21px;
-    color: #7f7f7f;
+    color: #03045e;
     line-height: 40px;
     padding-left: 50px;
     padding-right: 50px;
@@ -107,6 +107,7 @@ header h2 span {
 
 #work img {
     padding-bottom: 30px;
+
 }
 
 #work h3 {
@@ -144,7 +145,7 @@ header h2 span {
     padding-left: 115px;
 }
 
-#contact #envelope {
+#contact, #envelope {
     padding: 0 10px 0 115px;
 }
 
@@ -154,14 +155,14 @@ header h2 span {
     line-height: 44px;
 }
 
-#contact #email-header{
+#contact, #email-header{
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
     margin: -30px 0 5px 0;
 }
 
-#contact #socialmedia-header {
+#contact, #socialmedia-header {
     font-weight: bold;
     font-size: 29px;
     line-height: 44px;
