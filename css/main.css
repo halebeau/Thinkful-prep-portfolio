@@ -39,6 +39,14 @@ header h1 {
     padding: 65px 0 65px 25px;
 }
 
+ul {
+    color: #560bad;
+    font-family: 'Lora';
+    font-size: 1.1em;
+    line-height: 50px;
+    margin-left: 45px;
+}
+
 nav {
     float: right;
     padding: 75px 25px;
@@ -66,7 +74,7 @@ header h2 {
     font-family: 'Lora', serif;
     font-size: 58px;
     line-height: 80px;
-    color: #00b4d8;
+    color: #219ebc;
     padding: 20px 0 20px 25px;
 }
 
@@ -88,7 +96,7 @@ header h2 span {
 
 #about p {
     font-size: 21px;
-    color: #03045e;
+    color: #184e77;
     line-height: 40px;
     padding-left: 50px;
     padding-right: 50px;
@@ -106,7 +114,7 @@ header h2 span {
 }
 
 #work img {
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 
 }
 
@@ -141,7 +149,7 @@ header h2 span {
     height: auto;
 }
 
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ol {
     padding-left: 115px;
 }
 
@@ -156,7 +164,7 @@ header h2 span {
 }
 
 #contact, #email-header{
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 44px;
     margin: -30px 0 5px 0;
@@ -176,15 +184,15 @@ header h2 span {
     font-size: 28px;
 }
 
-#contact ul {
+#contact ol {
     list-style: none;
 }
 
-#contact ul li {
-    display: inline-block;
+#contact ol li {
+    display: block;
 }
 
-#contact ul img {
+#contact ol img {
     padding-right: 48px;
 
 }
